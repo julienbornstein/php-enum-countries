@@ -1,0 +1,25 @@
+{
+    "name": "julienbornstein/php-enum-countries",
+    "description": "Country ISO 3166-1 alpha-2 and alpha-3 enum classes for myclabs/php-enum library",
+    "keywords": ["enum", "country"],
+    "type": "library",
+    "homepage": "https://github.com/julienbornstein/php-enum-countries",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julien Bornstein",
+            "homepage": "https://www.parisbouge.com",
+            "email": "julien@parisbouge.com",
+            "role": "Author"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ParisBouge\\Enum\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "myclabs/php-enum": "^1.7"
+    }
+}
